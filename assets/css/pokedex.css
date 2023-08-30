@@ -19,7 +19,7 @@
 .water {
     background-color: #678fee;
 }
-.eletric {
+.electric {
     background-color: #f7cf2e;
 }
 .ice {
@@ -62,7 +62,7 @@
     background-color: #f9aec7;
 }
 
-.pagination{
+#pagination{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -71,7 +71,7 @@
     padding: 1rem;
 }
 
-.pagination button {
+#pagination button {
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
