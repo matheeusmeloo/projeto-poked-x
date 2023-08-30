@@ -1,3 +1,5 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css');
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -5,8 +7,6 @@
     padding: 0;
     margin: 0;
 }
-
-
 .normal {
     background-color: #a6a877;
 }
@@ -25,7 +25,7 @@
 .ice {
     background-color: #98d5d7;
 }
-.groud {
+.ground {
     background-color: #dfbf69;
 }
 .flying {
@@ -68,19 +68,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
 }
-
-/* .pagination button {
-    padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    color: #fff;
-    background-color: #6c79db;
-    border: none;
-    border-radius: 1rem;
-} */
-
 .bg-pokeball {
     position: absolute;
     border-radius: 1rem;
@@ -89,12 +78,10 @@
     margin: .5rem;
     padding: 2.9rem 0 0 6rem;
 }
-
 .bg-pokeball img {
     height: 100px;
     opacity: 0.3;
 }
-
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -103,37 +90,31 @@
     border-radius: 1rem;
     color: #fff;
 }
-
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
 }
-
 .pokemon .number {
     color: #000;
     opacity: 0.1;
     text-align: right;
 }
-
 .pokemon .name {
     color: #fff;
     margin: .25rem 0;
     text-transform: capitalize;
 }
-
 .pokemon .detail {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
 .pokemon .detail .types {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-
 .pokemon .detail .types .type {
    color: #fff;
    padding: .25rem .5rem;
@@ -143,8 +124,6 @@
    filter: brightness(1.1);
    text-transform: capitalize;
 }
-
-
 .gg-arrow-down-o {
     box-sizing: border-box;
     position: relative;
@@ -152,44 +131,19 @@
     width: 22px;
     height: 22px;
     border: 2px solid;
-    transform: scale(var(--ggs,1));
+    transform: scale(var(--ggs,3));
     border-radius: 20px
 }
-.gg-arrow-down-o::after,
-.gg-arrow-down-o::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 4px
-}
-.gg-arrow-down-o::after {
-    width: 6px;
-    height: 6px;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-    transform: rotate(-45deg);
-    left: 6px
-}
-.gg-arrow-down-o::before {
-    width: 2px;
-    height: 10px;
-    left: 8px;
-    background: currentColor
-}
-
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
 }
-
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
