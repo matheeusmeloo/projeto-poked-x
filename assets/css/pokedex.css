@@ -11,7 +11,7 @@
     background-color: #a6a877;
 }
 .grass {
-    background-color: #46d1b2;
+   background-color: #46d1b2;
 }
 .fire {
     background-color: #ee7f30;
@@ -70,19 +70,11 @@
     width: 100%;
     padding: 2rem;
 }
-.bg-pokeball {
-    position: absolute;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin: .5rem;
-    padding: 2.9rem 0 0 6rem;
-}
-.bg-pokeball img {
-    height: 100px;
-    opacity: 0.3;
-}
 .pokemon {
+    background-image: url('/assets/img/pball.svg');
+    background-size: 5rem;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     margin: .5rem;
